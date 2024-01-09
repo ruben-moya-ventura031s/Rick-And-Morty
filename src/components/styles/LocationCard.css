@@ -1,0 +1,31 @@
+.sectionCard {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5em;
+}
+
+.sectionCard article {
+  background-color: #062226;
+  width: 100%;
+  max-width: 800px;
+  padding: 1.5em 1em 2em;
+  text-align: center;
+}
+
+.sectionCard ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.1rem;
+  margin-top: 0.8em;
+}
+
+.sectionCard li {
+  display: flex;
+  flex-direction: column;
+}
+
+.sectionCard .span2 {
+  color: #999
+}

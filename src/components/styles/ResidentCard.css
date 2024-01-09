@@ -1,0 +1,88 @@
+.section {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 0.8em;
+  overflow: hidden;
+  background-color: #062226;
+  color: white;
+  transition: transform 100ms ease, box-shadow 100ms ease;
+}
+
+.section:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 2em #0008;
+}
+
+.section  header {
+  position: relative;
+}
+
+.section .article1 {
+position: absolute;
+top: 10%;
+background-color: #062226;
+width: 35%;
+border-radius:  0 0.4em 0.4em;
+padding: 0.3em;
+padding-left: 0.7em;
+display: flex;
+align-items: center;
+gap: 0.6em;
+}
+
+.div {
+width: 18px;
+aspect-ratio: 1; /*Esta funcion hace que el ancho y el alto tengas el mismo tamano, tomando en cuenta que si aumentamos el valor en 1.5 el ancho sera 50% mayor que el largo*/
+background-color: #999;
+border-radius: 50%;
+}
+
+.Alive {
+  background-color: rgb(22, 148, 22);
+}
+
+.Dead {
+  background-color: rgb(185, 1, 1);
+}
+
+.article1 span {
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+/*info user*/
+
+.article2 {
+  padding: 1.5em 1em 2em;
+}
+
+.article2 h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.article2 hr {
+  margin-bottom:  1.5em;
+  border-color: #fff3;
+}
+
+.article2 ul {
+  display: grid;
+  gap: 0.8em;
+}
+
+.article2 li {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+}
+
+.article2 .span1 {
+  padding-left: 1em;
+  color: #999;
+  font-weight: 400;
+}
+
+
